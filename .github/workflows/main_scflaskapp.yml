@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'scflaskapp'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_33157b54386c429696a487488e8c3b7a }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_186cacb8a701425ba0483746c4bac76b }}
