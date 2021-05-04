@@ -1,6 +1,6 @@
 from flask import Flask
-app = Flask(__name__)
+app = Flask(__name__), render_template,request
 
 @app.route("/")
-def hello():
-    return "Hello, World!"
+def home():
+    return render_template('home.html')
